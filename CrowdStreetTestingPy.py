@@ -30,7 +30,7 @@ class TestNewCSTest():
     # 4 | type | id=lastName | TEST
     self.driver.find_element(By.ID, "lastName").send_keys("TEST")
     # 5 | type | id=email | amaxj95@gmail.com
-    self.driver.find_element(By.ID, "email").send_keys("amaxj95@gmail.com")
+    self.driver.find_element(By.ID, "email").send_keys("email@email.com")
     # 6 | type | id=password | db!ppQer5TTtA56
     self.driver.find_element(By.ID, "password").send_keys("db!ppQer5TTtA56")
     # 7 | type | id=confirmPassword | db!ppQer5TTtA56
